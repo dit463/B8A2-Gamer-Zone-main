@@ -251,6 +251,42 @@ body {
   top: 260px;
   left: 250px;
 }
+/* ========careers section========== */
+.careers{
+  display: flex;
+  background-color: #FF42A5;
+}
+.careers-contant{
+  padding: 30px 0px 30px 60px;
+}
+.careers-description{
+  color: white;
+  text-align: justify;
+}
+.careeas-short-des{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.text-right{
+  text-align: right;
+}
+.positions-btn{
+  padding: 1.5rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #ffffff;
+  color: #FF42A5;
+  border: none;
+  border-radius: 35px;
+}
+
+
+
+.careers-img>img{
+  width: 450px;
+  height: 100%;
+}
 
 
 
