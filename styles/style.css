@@ -280,15 +280,33 @@ body {
   border: none;
   border-radius: 35px;
 }
-
-
-
 .careers-img>img{
   width: 450px;
   height: 100%;
 }
-
-
+/* ============all-games============= */
+.all-games{
+  padding: 4rem;
+  background-color: rgb(248, 239, 220);
+}
+.all-games-divition{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.game-card{
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 1rem;
+  font-weight: 600;
+  padding: 10px 15px;
+  color: #0B0223;
+  background-color: #ffffff;
+  border-radius: 45px;
+}
+#bhejal{
+  color: #FF42A5;
+}
 
 
 
