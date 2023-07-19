@@ -25,6 +25,10 @@ body {
   color:  #534C64;
   font-weight: 500;
 }
+.headin-green{
+  color: #0B0223;
+  font-weight: 700;
+}
 .Praimary-btn{
   padding: 1rem 2rem;
   font-weight: ;
@@ -149,22 +153,33 @@ body {
   font-size: 2rem;
   margin: -10px;
 }
-#funny-htwo{
-  color: #0B0223;
+/* ===========funny section============ */
+.funny-descrition{
+  margin: auto;
+  text-align: center;
+}
+
+
+.funny-video{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 100px;
 }
 .funny-imgs{
   display: flex;
-  width: 160px;
-  height: 210px;
-
-}
-.funny-img-box>img{
-  width: 150px;
-  height: 170px;
+  margin: auto;
 }
 .funny-img-box {
   position: relative; 
   display: inline-block; 
+  margin: 0.5rem;
+  width: 170px;
+  height: 220px;
+}
+.funny-img-box>img{
+  width: 170px;
+  height: 190px;
 }
 .play-btn {
   position: absolute;
@@ -177,6 +192,65 @@ body {
   border-radius: 50%;
 }
 
+/* ========instand play section======== */
+.instand-play{
+  display: flex;
+  margin: 4rem 4rem;
+  padding: 1rem 0rem;
+}
+.instand-contant{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: center;
+}
+.instand-img{
+  position: relative;
+  margin: 30px 50px;
+}
+.instand-img-one>img{
+  width: 300px;
+  height: 350px;
+  margin-left: 40px;
+}
+.instand-img-two>img{
+  width: 120px;
+  height: 120px;
+  border: 2px solid white;
+  position: absolute;
+  top: 260px;
+}
+/* ==========any time play=========== */
+.anytime-play{
+  display: flex;
+  margin: 4rem 4rem;
+  padding: 1rem 0rem;
+}
+.anytime-contant{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+.anytime-img{
+  position: relative;
+  margin: 30px 50px;
+}
+.anytime-img-one>img{
+  width: 300px;
+  height: 350px;
+  margin-left: 40px;
+}
+.anytime-img-two>img{
+  width: 120px;
+  height: 120px;
+  border: 2px solid white;
+  position: absolute;
+  top: 260px;
+  left: 250px;
+}
 
 
 
